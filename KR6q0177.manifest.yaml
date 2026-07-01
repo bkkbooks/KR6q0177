@@ -1,0 +1,73 @@
+canonical_identifier: bkk:krp/KR6q0177/v1
+canonical_location: https://kanripo.org/bkk/KR6q0177/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 證道歌頌
+  identifiers:
+    alt_id:
+    - X65n1291
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X65/X65n1291.xml
+    old_id: X65n1291
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6q0177_000.yaml, hash: 'sha256:1d27e56343b66f13bac036d31213842135337798cb611aed9b7a9ea375ff2e71'}
+  - {seq: 1, filename: KR6q0177_001.yaml, hash: 'sha256:22c35631e019256a8d5cf74b6aff001376d3d37e6194f0ec1df886f139b2f580'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6q0177_000.markers.yaml, hash: 'sha256:3dad2d31c42bbd2e0fd47ab7bf571f734025b798f072c691692d616fd5d8f076'}
+  - {seq: 1, role: markers, filename: assets/KR6q0177_001.markers.yaml, hash: 'sha256:a3f872db23c36327c2de643f91edcce5494d621a60cd6b40aa3b3d264eb0aa33'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6q0177_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 1291-A 南明泉頌永嘉證道謌序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6q0177_X_000-mulu-2
+    span:
+    - front
+    - 352
+    - 352
+  label: 證道歌頌
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0177_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 8928
+  label: 永嘉真覺禪師證道歌
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6q0177_X_001-mulu-1
+    span:
+    - body
+    - 8625
+    - 8625
+  label: No. 1291-B
+  type: mulu
+  level: 1
+hash: sha256:36e707004fa412238b521392790e44d97dd703db28f96f5fe70cab1fc45e234d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
