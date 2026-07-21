@@ -21,17 +21,17 @@ editions:
 - short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6q0177_000.yaml, hash: 'sha256:1d27e56343b66f13bac036d31213842135337798cb611aed9b7a9ea375ff2e71'}
+  - {seq: 0, filename: KR6q0177_000.yaml, hash: 'sha256:2494e5df51a3f88c148b6662ee25c3605eb6bc18076a23dc6df3920b21cab368'}
   - {seq: 1, filename: KR6q0177_001.yaml, hash: 'sha256:0be8042986aac2f1e9f8a4f486c7de9644eb405366d004c190d86a955706cc12'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6q0177_000.markers.yaml, hash: 'sha256:d3fa5afbd92a77e050ad9e84e61374fa8231f5252d1efeb39aab75144ab01a9f'}
+  - {seq: 0, role: markers, filename: assets/KR6q0177_000.markers.yaml, hash: 'sha256:f3135e759a62d10f2e89983311c4899aad072a7637f65aec2569f358d3763145'}
   - {seq: 1, role: markers, filename: assets/KR6q0177_001.markers.yaml, hash: 'sha256:8edbf8efb1b3a1a7379fe9a842281d8d63d962c5f5783b1387b326ce516ef256'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6q0177_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 1291-A 南明泉頌永嘉證道謌序
@@ -41,7 +41,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6q0177_X_000-mulu-2
     span:
-    - front
+    - body
     - 352
     - 352
   label: 證道歌頌
@@ -67,7 +67,7 @@ table_of_contents:
   label: No. 1291-B
   type: mulu
   level: 1
-hash: sha256:427262d8a49f1fb4bf46eb4bc87995ec1467a41cd85c7e787182fe3971e6d357
+hash: sha256:ee4e3e941f70e0ffed96f0a52531a63188f8030d3436b314ca8ba0551c47350b
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
